@@ -3,7 +3,8 @@
                 File Name: header.php
                 Author's Name: Justin Hellsten
                 Website Name: www.justinhellsten.com
-                File Description: This is the header of the website. This will include all the css, js, framework, etc for the website. It also contains the top navigation.
+                File Description: This is the header of the website. This will include all the css, js, framework, etc for the website. 
+								  It also contains the top navigation.
         */
 ?>
 
@@ -17,6 +18,13 @@
 <html class="no-js" lang="en" >
 
 <head>
+<script type="text/javascript">
+  <!--
+  if (screen.width <= 800) {
+    window.location = "justinhellsten.com/mobile/";
+  }
+  //-->
+</script>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Justin Hellsten's Website</title>
