@@ -12,6 +12,19 @@
 	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script> 
 	<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script> 
 
+	<!-- jQuery library (served from Google) -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<!-- bxSlider Javascript file -->
+	<script src="js/jquery.bxslider.min.js"></script>
+	<!-- bxSlider CSS file -->
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+
+<script>
+$(document).ready(function(){
+  $('.bxslider').bxSlider();
+});
+</script>
+
 </head>
 	
 <body>
@@ -28,30 +41,21 @@
       <li><a href="#about" data-theme="c" data-icon="grid">About Me</a></li>
       <li><a href="#contact" data-theme="c" data-icon="info">Contact Me</a></li>
     </ul>
+	<ul>
+		<li><a href="#projects" data-theme="c" data-icon="info">Projects</a></li>
+		<li><a href="#services" data-theme="c" data-icon="info">Services</a></li>
+	</ul>
   </div>
   <section role="main" class="ui-content">
-    <div style="text-align:center;"><img src="ColourWheel.png" /></div>
+<ul class="bxslider">
+  <li><img src="imgs/ritz_screen.png" /></li>
+  <li><img src="imgs/grabidelov.png" /></li>
+  <li><img src="imgs/grabidelov.png" /></li>
+</ul>
   </section>
   <div data-role="footer" data-theme="b" data-position="fixed">
     <h4>Copyright 2014 by Justin Hellsten</h4>
   </div>
-</div>
-<div data-role="page" id="survey-results">
-    <div data-role="header">
-    <h4>Survey Results</h4>
-    </div>
-    <div role="main" class="ui-content">
-        <h6>Totals</h6>
-        <label>A (RED)</label>
-        <label id="a-total"></label>
-        <label>B (YELLOW)</label>
-        <label id="b-total"></label>
-        <label>C (GREEN)</label>
-        <label id="c-total"></label>
-        <label>D (BLUE)</label>
-        <label id="d-total"></label>
-        <a id="okay-button" href="#home" data-role="button">Okay</a>
-    </div>
 </div>
 
 <!-- Contact Page Section -->
