@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="css/themes/simple.css" />
 	<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile.structure-1.4.2.min.css" /> 
+	<link rel="stylesheet" href="webicons.css" />
 	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script> 
 	<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script> 
 
@@ -52,6 +53,7 @@ $(document).ready(function(){
   <li><img src="imgs/grabidelov.png" /></li>
   <li><img src="imgs/grabidelov.png" /></li>
 </ul>
+<a href="http://justinhellsten.com/">Switch to full site view</a>
   </section>
   <div data-role="footer" data-theme="b" data-position="fixed">
     <h4>Copyright 2014 by Justin Hellsten</h4>
@@ -66,22 +68,24 @@ $(document).ready(function(){
   <div data-role="navbar">
     <ul>
       <li><a href="#home" data-theme="c" data-icon="home">Home</a></li>
-      <li><a href="#about" class="ui-btn-active ui-state-persist" data-theme="c" data-icon="grid">About Me</a></li>
-      <li><a href="#contact" data-theme="c" data-icon="info">Contact Me</a></li>
+      <li><a href="#about" data-theme="c" data-icon="grid">About Me</a></li>
+      <li><a href="#contact" class="ui-btn-active ui-state-persist" data-theme="c" data-icon="info">Contact Me</a></li>
     </ul>
   </div>
   <div data-role="content">
-    <!-- Contact form with name, contact number and email address-->
-    <form action="#home" method="get" name="contactForm">
-    <label for="name">Name:</label>
-    <input data-clear-btn="true" name="name" id="name" value="" type="text">
-    <label for="name">Contact Number:</label>
-    <input data-clear-btn="true" name="contact-number" id="contact-number" value="" type="text">
-    <label for="name">Email Address:</label>
-    <input data-clear-btn="true" name="email-address" id="email-address" value="" type="text">
-    <br />
-      <button class="ui-btn ui-corner-all ui-btn-inline" data-theme="c">submit</button>
-    </form>
+	<div id="keep-connected">
+                <a class="webicon facebook" href="https://www.facebook.com/justin.hellsten">Facebook</a>
+                <a class="webicon twitter" href="https://twitter.com/JustinHellsten">Twitter</a>
+                <a class="webicon linkedin" href="https://ca.linkedin.com/pub/justin-hellsten/4b/178/436/">LinkedIn</a>
+                <a class="webicon googleplus" href="https://plus.google.com/u/0/116645772105384028282/posts">Google+</a>
+                <a class="webicon github" href="https://github.com/JustinHue">Github</a>
+	</div>
+	<div id="contact-info">
+            <h2>Contact Info</h2>
+            <p><strong>Email Address:</strong> justinhellsten@gmail.com</p>
+            <p><strong>Work Address:</strong> 2055 Thompson St.</p>
+            <p><strong>Contact Number:</strong> 705 220 4972</p>
+	</div>
   </div>
   <div data-role="footer"data-theme="b"data-position="fixed">
     <h4>Copyright 2014 by Justin Hellsten</h4>
@@ -96,22 +100,25 @@ $(document).ready(function(){
   <div data-role="navbar">
     <ul>
       <li><a href="#home" data-theme="c" data-icon="home">Home</a></li>
-      <li><a href="#about" data-theme="c" data-icon="grid">About</a></li>
-      <li><a href="#contact" class="ui-btn-active ui-state-persist" data-theme="c" data-icon="info">Contact Me</a></li>
+      <li><a href="#about" class="ui-btn-active ui-state-persist" data-theme="c" data-icon="grid">About</a></li>
+      <li><a href="#contact" data-theme="c" data-icon="info">Contact Me</a></li>
     </ul>
   </div>
   <div data-role="content">
-    <!-- Contact form with name, contact number and email address-->
-    <form action="#home" method="get" name="contactForm">
-    <label for="name">Name:</label>
-    <input data-clear-btn="true" name="name" id="name" value="" type="text">
-    <label for="name">Contact Number:</label>
-    <input data-clear-btn="true" name="contact-number" id="contact-number" value="" type="text">
-    <label for="name">Email Address:</label>
-    <input data-clear-btn="true" name="email-address" id="email-address" value="" type="text">
-    <br />
-      <button class="ui-btn ui-corner-all ui-btn-inline" data-theme="c">submit</button>
-    </form>
+	<img style="width:240px; height:240px;" src="imgs/me.png" />
+
+<p>Hi! I am Justin Hellsten. I would be what you call a hobbyist programmer. On my spare time I love to work on personal projects or learn something new in programming. Most of my projects revolve mostly around making and designing games or webites, but I am open to working on projects in other areas. I am currently a student studying at Georgian College for the Computer Programming Analyst program and working in co-ops between academic semesters through Georgian College's internship program.</p>
+
+<p>If you want to know more about my projects you can check out my portfolio page or view the source code on Github. If you're an employer you can check out my skills, expertise and work experience on my Linkedin profile.</p>
+
+    <h2>Work Experience</h2>
+    <p><strong>King Brand Healthcare Products - Web Programmer/ Intern:</strong> May 2012 - August 2012</p>
+	<p><strong>Avetti.com Corporation - Web Designer / Intern:</strong> September 2013 - January 2014</p>
+
+    <h2>Education</h2>
+    <p><strong>Georgian College - Computer Programmer Analyst (3 year)</strong> September 2011 - 2014</p>
+
+
   </div>
   <div data-role="footer"data-theme="b"data-position="fixed">
     <h4>Copyright 2014 by Justin Hellsten</h4>
