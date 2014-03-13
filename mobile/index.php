@@ -1,3 +1,12 @@
+<?php
+        /* 
+                File Name: index.php
+                Author's Name: Justin Hellsten
+                Website Name: www.justinhellsten.com
+                File Description: This is the page that dishes out all mobile pages and content.
+        */
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,6 +28,19 @@
 	<script src="js/jquery.bxslider.min.js"></script>
 	<!-- bxSlider CSS file -->
 	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+
+    <!-- Google Font API -->
+    <link href="http://fonts.googleapis.com/css?family=Tangerine" type="text/css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Open Sans" type="text/css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Josefin Slab" type="text/css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Arvo" type="text/css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Lato" type="text/css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Vollkorn" type="text/css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Abril Fatface" type="text/css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu" type="text/css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=PT Sans + PT Serif" type="text/css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Old Standard TT" type="text/css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Droid Sans" type="text/css" rel="stylesheet">
 
 <script>
 $(document).ready(function(){
