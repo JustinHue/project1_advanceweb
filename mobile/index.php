@@ -39,12 +39,12 @@ $(document).ready(function(){
   <div data-role="navbar">
     <ul>
       <li><a href="#home" class="ui-btn-active ui-state-persist" data-theme="c" data-icon="home">Home</a></li>
-      <li><a href="#about" data-theme="c" data-icon="grid">About Me</a></li>
+      <li><a href="#about" data-theme="c" data-icon="user">About Me</a></li>
       <li><a href="#contact" data-theme="c" data-icon="info">Contact Me</a></li>
     </ul>
 	<ul>
-		<li><a href="#projects" data-theme="c" data-icon="info">Projects</a></li>
-		<li><a href="#services" data-theme="c" data-icon="info">Services</a></li>
+		<li><a href="#projects" data-theme="c" data-icon="gear">Projects</a></li>
+		<li><a href="#services" data-theme="c" data-icon="shop">Services</a></li>
 	</ul>
   </div>
   <section role="main" class="ui-content">
@@ -68,7 +68,7 @@ $(document).ready(function(){
   <div data-role="navbar">
     <ul>
       <li><a href="#home" data-theme="c" data-icon="home">Home</a></li>
-      <li><a href="#about" data-theme="c" data-icon="grid">About Me</a></li>
+      <li><a href="#about" data-theme="c" data-icon="user">About Me</a></li>
       <li><a href="#contact" class="ui-btn-active ui-state-persist" data-theme="c" data-icon="info">Contact Me</a></li>
     </ul>
   </div>
@@ -100,7 +100,7 @@ $(document).ready(function(){
   <div data-role="navbar">
     <ul>
       <li><a href="#home" data-theme="c" data-icon="home">Home</a></li>
-      <li><a href="#about" class="ui-btn-active ui-state-persist" data-theme="c" data-icon="grid">About</a></li>
+      <li><a href="#about" class="ui-btn-active ui-state-persist" data-theme="c" data-icon="user">About</a></li>
       <li><a href="#contact" data-theme="c" data-icon="info">Contact Me</a></li>
     </ul>
   </div>
@@ -119,6 +119,54 @@ $(document).ready(function(){
     <p><strong>Georgian College - Computer Programmer Analyst (3 year)</strong> September 2011 - 2014</p>
 
 
+  </div>
+  <div data-role="footer"data-theme="b"data-position="fixed">
+    <h4>Copyright 2014 by Justin Hellsten</h4>
+  </div>
+</div>
+
+<!-- Services Page Section -->
+<div data-role="page" id="services">
+  <div data-role="header"data-theme="c">
+    <h1>Contact Me</h1>
+  </div>
+  <div data-role="navbar">
+    <ul>
+      <li><a href="#home" data-theme="c" data-icon="home">Home</a></li>
+      <li><a href="#about" data-theme="c" data-icon="user">About Me</a></li>
+      <li><a href="#contact" data-theme="c" data-icon="info">Contact Me</a></li>
+	  <li><a href="javascript:history.go(-1)" data-theme="c" data-icon="back">Go Back</a></li>
+    </ul>
+  </div>
+  <div data-role="content">
+            <h1>List of Services</h1>
+            <h3>Game Development</h3>
+            <p>I offer services to develop and market games for android and iphone apps market. I program mostly with Java.</p>
+            <h3>Web Development + Design</h3>
+            <p>I charge $20/h for all  web development and design work but can vary depending on requirements. My skills for this arena are HTML, CSS, PHP, and MySQL. </p>
+  </div>
+  <div data-role="footer"data-theme="b"data-position="fixed">
+    <h4>Copyright 2014 by Justin Hellsten</h4>
+  </div>
+</div>
+
+<!-- Projects Page Section -->
+<div data-role="page" id="projects">
+  <div data-role="header"data-theme="c">
+    <h1>Contact Me</h1>
+  </div>
+  <div data-role="navbar">
+    <ul>
+      <li><a href="#home" data-theme="c" data-icon="home">Home</a></li>
+      <li><a href="#about" data-theme="c" data-icon="user">About Me</a></li>
+      <li><a href="#contact" data-theme="c" data-icon="info">Contact Me</a></li>
+	  <li><a href="javascript:history.go(-1)" data-theme="c" data-icon="back">Go Back</a></li>
+    </ul>
+  </div>
+  <div data-role="content">
+  <div ><a href="https://github.com/JustinHue/Intro_to_Graphics_Project1A"><img style="width: 100%;" src="imgs/ritz_screen.png" /></a></div>
+  <div><a href="https://github.com/JustinHue/Grabidelov"><img style="width: 100%;" src="imgs/grabidelov.png" /></a></div>
+  <div><a href="https://github.com/JustinHue/PlutoDNASimulator"><img style="width: 100%;" src="imgs/grabidelov.png" /></a></div>
   </div>
   <div data-role="footer"data-theme="b"data-position="fixed">
     <h4>Copyright 2014 by Justin Hellsten</h4>
